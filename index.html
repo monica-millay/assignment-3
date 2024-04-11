@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Title that goes on tab, is my title too long? -->
+<head>
+    <meta charset="utf-8">
+    <title>Best tennis courts in Portland, ME</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Legend/side bar -->
+    <div id="sidebar">
+        <div class="header">
+            <h1>Best tennis courts in Portland, Maine</h1>
+        </div>
+        <p>This is an entirely subjective ranking of which parks have the best tennis courts in my hometown of Portland, Maine.</p>
+        <p>I used 2 criteria to rank the 4 parks:</p>
+        <p>(1) number of courts (which is inversely correlated with how long you will wait for a court)</p>
+        <p>(2) how beautiful the view is from tennis courts</p>
+        <p><strong>Zoom in to see a satellite image of the courts for yourself.</strong></p>
+       
+        <a class="source-code-link" href="addlink">Source Code</a>
+    </div>
+    <!-- Pull in map, data, javascript -->
+    <div id="map-container"></div>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+    <script src="js/tennis-court-data.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
